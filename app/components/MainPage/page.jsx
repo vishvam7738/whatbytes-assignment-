@@ -58,21 +58,21 @@ export default function MainPage() {
       <h1 className="font-bold text-xl">Skill Test</h1>
       <div className="flex max-[678px]:flex-col">
         <div className="left-part mr-5">
-          <div className="assignment-details py-3 ">
-            <div className="border-[1px] rounded-md p-3 flex">
+          <div className="assignment-details py-3">
+            <div className="border-[1px] rounded-md p-3 flex items-center space-x-4">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
-                className="h-[40px] mr-3"
+                className="h-[40px]"
               />
-              <div className="">
+              <div>
                 <h1 className="font-bold">Hyper Text Markup Language</h1>
-                <p className="mr-8 text-gray-600">
+                <p className="mr-6 text-gray-600 text-base">
                   Questions: 08 | Duration: 15 mins | Submitted on 5 June 2021
                 </p>
               </div>
               <button
                 onClick={() => setUpdated(true)}
-                className="bg-blue-900 hover:bg-blue-700 rounded-lg text-white py-2 px-5 mt-2 border-2 border-black"
+                className="bg-blue-900 hover:bg-blue-700 rounded-lg text-white py-2 px-5 mt-2 border-2 border-black w-[120px] h-[40px]"
               >
                 Update
               </button>
@@ -147,7 +147,7 @@ export default function MainPage() {
             <PercentileComparisonChart
               userPercentile={Number(details.percentile)}
             />
-            <div className="absolute top-8 right-4 h-[40px] w-[40px] rounded-full bg-gray-100 flex items-center justify-center">
+            <div className="absolute top-4 right-4 h-[40px] w-[40px] rounded-full bg-gray-100 flex items-center justify-center">
               <span className="text-lg">📈</span>
             </div>
           </div>
