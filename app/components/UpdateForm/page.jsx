@@ -45,7 +45,8 @@ export default function UpdateForm({ setUpdated, setDetails }) {
       >
         &times;
       </button>
-      <h1 className="font-semibold text-lg mb-6">Update Scores</h1>
+      <h1 className="font-semibold text-2xl mb-6">Update Scores</h1>
+
       <div className="flex mb-4 justify-between items-center">
         <label>
           Update your <span className="font-semibold">Rank</span>
