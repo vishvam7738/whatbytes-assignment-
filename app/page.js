@@ -18,9 +18,9 @@ export default function Home() {
           setOpenSidebar={setOpenSidebar}
           setSelected={setSelected}
         />
-        {selected == 0 && <div>DashBoard Page</div>}
+        {selected == 0 && <div>Dashboard</div>}
         {selected == 1 && <MainPage />}
-        {selected == 2 && <div>Internship Page</div>}
+        {selected == 2 && <div>Internship</div>}
       </div>
     </div>
   );
